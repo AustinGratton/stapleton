@@ -1,0 +1,10 @@
+PReMiuM
+The values of the boxplots are computed running this line:
+
+riskProfileObj<-calcAvgRiskAndProfile(clusObj)
+
+
+riskProfileObj$risk gives you the values used for the boxplots for the outcome
+
+ 
+riskProfileObj$profile gives you the values used for the boxplots of the covariates
