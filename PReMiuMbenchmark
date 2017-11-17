@@ -1,3 +1,6 @@
+PReMiuM version # missing?
+
+
 prem.bench <- function(classNum = 5){
   function.list = c("clusSummaryBernoulliDiscrete", "clusSummaryBernoulliNormal", "clusSummaryBernoulliDiscreteSmall","clusSummaryCategoricalDiscrete","clusSummaryNormalDiscrete","clusSummaryNormalNormal","clusSummaryNormalNormalSpatial","clusSummaryVarSelectBernoulliDiscrete","clusSummaryBernoulliMixed","clusSummaryQuantileNormal")
   final.out = NULL
