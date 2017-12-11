@@ -37,3 +37,14 @@ tester = prem.bench()
 end.time = Sys.time()
 
 end.time-start.time
+
+BernoulliDiscrete = tester[which(tester == "clusSummaryBernoulliDiscrete"),-1]
+BernoulliNormal = tester[which(tester == "clusSummaryBernoulliNormal"),-1]
+BernoulliDiscreteSmall = tester[which(tester == "clusSummaryBernoulliDiscreteSmall"),-1]
+CategoricalDiscrete = tester[which(tester == "clusSummaryCategoricalDiscrete"),-1]
+NormalDiscrete = tester[which(tester == "clusSummaryNormalDiscrete"),-1]
+NormalNormal = tester[which(tester == "clusSummaryNormalNormal"),-1]
+NormalNormalSpatial = tester[which(tester == "clusSummaryNormalNormalSpatial"),-1]
+VarSelectBernoulliDiscrete = tester[which(tester == "clusSummaryVarSelectBernoulliDiscrete"),-1]
+BernoulliMixed = tester[which(tester == "clusSummaryBernoulliMixed"),-1]
+
