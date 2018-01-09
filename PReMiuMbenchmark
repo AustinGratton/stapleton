@@ -1,6 +1,6 @@
+########Default class number is 3. Should not be changed until sample data clusters can be changed.
 
-##########classNum is number of known clusters data is in, default is 5
-prem.bench <- function(classNum = 5){
+prem.bench <- function(classNum = 3){
   function.list = c("clusSummaryBernoulliDiscrete", "clusSummaryBernoulliNormal", "clusSummaryBernoulliDiscreteSmall","clusSummaryCategoricalDiscrete","clusSummaryNormalDiscrete","clusSummaryNormalNormal","clusSummaryNormalNormalSpatial","clusSummaryVarSelectBernoulliDiscrete","clusSummaryBernoulliMixed")
   final.out = NULL
   for (i in function.list){
@@ -36,6 +36,10 @@ return(final.out)
 }
 
 tester = prem.bench()
+
+
+
+
 
 BernoulliDiscrete = tester[which(tester == "clusSummaryBernoulliDiscrete"),-1]
 BernoulliNormal = tester[which(tester == "clusSummaryBernoulliNormal"),-1]
