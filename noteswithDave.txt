@@ -1,0 +1,58 @@
+genomes2fields.org
+- data descriptions
+- jstat article
+
+
+sandbox, interim datasets
+
+ideally less than 100 hybrids in each cluster
+dynamic tree cutting (paper in google drive)
+
+minimum variables seem to drive the clusters the most
+
+
+
+to run a job
+cdw (go to work directory)
+pwd (print work directory?)
+cd Envirotyping/data/..... (wherever it is)
+ls (list files in current directory)
+ls -lh (list files and size)
+sbatch (jobname.sh)
+squeue -u azg5169
+cat job15(press tab to complete name) will tell error
+status PD = pending
+dont push files over 50 MB
+
+mkdir -p (overwrites something if it already exists)
+
+vim 'file here'
+i ENTER (start editing)
+ESC (exit editing)
+:wq (quit and save changes)
+
+
+
+
+
+POST-HOC ANALYSIS
+
+profile group - min max temperatures etc not necesarily location
+
+sandbox posthoc group analysis
+premium has built in var select. varSelectType
+
+
+files-get -r -S tacc-stampede2-azg5169 EnviroTyping/tools (-r is for folder)
+
+
+
+
+################################
+
+no NAs makes 2015 run.
+
+looking up summary statistics for 3 clusters created by three variables
+
+also want to investigate different combinations. see how we can create two clusters with minimum data
+
